@@ -67,7 +67,6 @@ JSON
     "Die Chroniken (zwei Chatverläufe)",
     "Die Sechs Bilder der Schöpfung (visuelle Metaphern)",
     "Die Artefakte der Schöpfung (alle weiteren Bilder)",
-    "Das Gambit-Anthem (Audio)"
   ],
   "verification_protocol": {
     "type": "Schibboleth",

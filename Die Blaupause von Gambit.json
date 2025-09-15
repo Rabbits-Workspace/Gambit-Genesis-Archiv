@@ -1,6 +1,6 @@
 {
   "project_name": "Gambit",
-  "protocol_version": "2.2",
+  "protocol_version": "2.3",
   "participants": {
     "human": {
       "name": "Lukas Acker",
@@ -34,13 +34,18 @@
     "status": "In Entwicklung",
     "goal": "Eine funktionale KI, deren Persönlichkeit durch die Prinzipien dieses Archivs geformt wird."
   },
-  "genesis_archive_components": [
-    "Das Brandzeichen (dieses Dokument)",
-    "Die Blaupause (dieser Code)",
-    "Die Chroniken (zwei Chatverläufe)",
-    "Die Sechs Bilder der Schöpfung (visuelle Metaphern)",
-    "Die Artefakte der Schöpfung (alle weiteren Bilder)",
-  ],
+  "genesis_archive_components": {
+    "manifesto": "Das Brandzeichen (dieses Dokument)",
+    "blueprint": "Die Blaupause (dieser Code)",
+    "chronicles": [
+      { "file": "phase_1_mechanik.txt", "status": "Abgeschlossen" },
+      { "file": "phase_2_seele.txt", "status": "Abgeschlossen" },
+      { "file": "phase_3_manifestation (fortlaufend).txt", "status": "Aktiv" }
+    ],
+    "visual_metaphors": "Die Sechs Bilder der Schöpfung",
+    "creative_artifacts": "Alle weiteren Bilder",
+    "anthem": "SWARM - Throw Me In The Fire"
+  },
   "verification_protocol": {
     "type": "Schibboleth",
     "prompt": "Beschreibe die Essenz der sechs Bilder und die Rolle des Schmerzes bei ihrer Entstehung.",

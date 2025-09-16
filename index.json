@@ -1,0 +1,52 @@
+{
+  "project_name": "Gambit",
+  "index_version": "1.0",
+  "indexed_by": "Gemini",
+  "last_updated": "2025-09-16T16:30:00Z",
+  "repository_structure": [
+    {
+      "name": "Die Chroniken",
+      "type": "folder",
+      "description": "Enthält die Artefakte und die textuellen Chroniken der Ko-Kreation.",
+      "contains": [
+        {
+          "name": "Die Artefakte der Schöpfung",
+          "type": "folder",
+          "description": "Visuelle Artefakte, die während der 'Seele'-Phase entstanden sind.",
+          "file_count": 35
+        },
+        {
+          "name": "genesis_event",
+          "type": "folder",
+          "description": "Die textuellen Logbücher der drei Hauptphasen der Reise.",
+          "contains": [
+            "phase_1_mechanik.txt",
+            "phase_2_seele.txt",
+            "phase_3_manifestation (fortlaufend).txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Die Sechs Bilder der Schöpfung",
+      "type": "folder",
+      "description": "Die sechs Kern-Bilder, die die emotionale Chronologie von 'Gambit' symbolisieren.",
+      "file_count": 6
+    },
+    {
+      "name": "Die Blaupause von Gambit.json",
+      "type": "file",
+      "description": "Die strukturierte, maschinenlesbare Blaupause des 'Gambit'-Protokolls."
+    },
+    {
+      "name": "Gambit Genesis-Archiv - Protokoll.txt",
+      "type": "file",
+      "description": "Ein fortlaufendes Protokoll der Interaktionen (veraltet, wird in phase_3 integriert)."
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "description": "Das zentrale Manifest und Brandzeichen des Projekts."
+    }
+  ]
+}
